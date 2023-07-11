@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인터넷 밈 지식 테스트</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="cont title-container">
+        <h1 id="index_title">💻인터넷 밈 지식 테스트💡</h1>
+        <button id="startBtn" class="btn">시작하기</button>
+    </div>
+    <div class="cont question-container">
+        <div id="question_number">1/10</div>
+        <div class="progress-back">
+            <div class="progress-bar" role="progressbar" style="width: calc(100/10*1%)">
+            </div>
+        </div>
+
+        <h1 id="question_title">질문 제목</h1>
+        <h3 id="question_content">질문 내용</h3>
+        <div class="buttons">
+            <button id="a" class="btn">안다</button>
+            <button id="b" class="btn">모른다</button>
+        </div>
+    </div>
+    <div class="cont result-container">
+        <h2>내 결과는...</h2>
+        <h1 id="result-title">결과</h1>
+        <img id="result-img" src="" alt="">
+        <p id="result-explain">설명</p>
+    </div>
+    <div class="score-container">
+        <input id="know" type="text" class="input" value="0">
+        <!-- <input id="notMaster" type="text" class="input" value="0"> -->
+    </div>
+</body>
+</html>
